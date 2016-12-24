@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cfd8dc"
+    android:orientation="vertical"
+    tools:context="com.example.android.businesscard.MainActivity">
+
+    <TextView
+        android:id="@+id/ford"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pocahontas Ford"
+        android:textSize="56sp"
+        android:fontFamily="cursive"
+        android:textColor="#ffff"
+        android:background="#283593"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="115 N Main St, Poachontas Iowa"
+        style="@android:style/TextAppearance.Medium"
+        android:fontFamily="monospace"
+        android:textColor="#fff"
+        android:background="#283593" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/address"
+        android:text="open Mon-Sat 8:00am-6:00pm"
+        style="@android:style/TextAppearance.Medium"
+        android:fontFamily="monospace"
+        android:textColor="#283593"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="888-229-3092"
+        style="@android:style/TextAppearance.Medium"
+        android:fontFamily="monospace"
+        android:textColor="#ffff"
+        android:background="#283593"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="110dp"
+        android:paddingLeft="110dp"
+        android:paddingRight="100dp"
+        android:paddingEnd="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <ImageView
+        android:id="@+id/car"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/poky6"
+        android:scaleType="centerCrop"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#283593"
+        android:text="pocahontasford.net"
+        android:paddingStart="80dp"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:paddingEnd="80dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        style="@android:style/TextAppearance.Medium"
+        android:fontFamily="monospace"
+        android:textColor="#ffff" />
+
+</LinearLayout>
